@@ -1,0 +1,8 @@
+F:\Programming Projects\SimpleBugs\SimpleBugsConsoleTest\SimpleBugsConsoleTest\bin\Debug\SimpleBugsConsoleTest.exe.config
+F:\Programming Projects\SimpleBugs\SimpleBugsConsoleTest\SimpleBugsConsoleTest\bin\Debug\SimpleBugsConsoleTest.exe
+F:\Programming Projects\SimpleBugs\SimpleBugsConsoleTest\SimpleBugsConsoleTest\bin\Debug\SimpleBugsConsoleTest.pdb
+F:\Programming Projects\SimpleBugs\SimpleBugsConsoleTest\SimpleBugsConsoleTest\bin\Debug\SimpleBugs.dll
+F:\Programming Projects\SimpleBugs\SimpleBugsConsoleTest\SimpleBugsConsoleTest\bin\Debug\SimpleBugs.pdb
+F:\Programming Projects\SimpleBugs\SimpleBugsConsoleTest\SimpleBugsConsoleTest\obj\Debug\SimpleBugsConsoleTest.csprojResolveAssemblyReference.cache
+F:\Programming Projects\SimpleBugs\SimpleBugsConsoleTest\SimpleBugsConsoleTest\obj\Debug\SimpleBugsConsoleTest.exe
+F:\Programming Projects\SimpleBugs\SimpleBugsConsoleTest\SimpleBugsConsoleTest\obj\Debug\SimpleBugsConsoleTest.pdb
