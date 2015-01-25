@@ -11,9 +11,6 @@
     {
         static void Main(string[] args)
         {
-            string test = SimpleBugs.Models.User.GetUserInformation();
-            Console.WriteLine(test);
-            Console.ReadLine();
         }
     }
 }

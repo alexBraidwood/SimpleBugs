@@ -6,8 +6,35 @@
     using System.Text;
     using System.Threading.Tasks;
 
-    public class BugTicket
+    public class BugTicket : Interfaces.ICreate, Interfaces.IResolve
     {
-        string testValue = User.GetUserInformation();
+        public string UserName { get; set { value = Environment.UserName; } }
+
+        public int CreateIdNumber
+        {
+            get
+            {
+                throw new NotImplementedException();
+            }
+            set
+            {
+                throw new NotImplementedException();
+            }
+        }
+
+        public int ResolveIdNumber
+        {
+            get { throw new NotImplementedException(); }
+        }
+
+        public string CreationInfo()
+        {
+            throw new NotImplementedException();
+        }
+
+        public string ResolveInfo()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

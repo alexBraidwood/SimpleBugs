@@ -8,5 +8,7 @@
 
     public interface IResolve
     {
+        int ResolveIdNumber { get; }
+        string ResolveInfo();
     }
 }
