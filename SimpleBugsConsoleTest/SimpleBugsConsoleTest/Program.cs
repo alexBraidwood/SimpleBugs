@@ -16,6 +16,7 @@ namespace SimpleBugsConsoleTest
             BugTicket test = new BugTicket();
 
             Console.WriteLine(test.UserName);
+            Console.WriteLine(test.DateInformation);
             Console.ReadLine();
         }
     }
