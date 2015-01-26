@@ -1,4 +1,6 @@
-﻿namespace SimpleBugsConsoleTest
+﻿using SimpleBugs.Models;
+
+namespace SimpleBugsConsoleTest
 {
     using System;
     using System.Collections.Generic;
@@ -11,6 +13,10 @@
     {
         static void Main(string[] args)
         {
+            BugTicket test = new BugTicket();
+
+            Console.WriteLine(test.UserName);
+            Console.ReadLine();
         }
     }
 }

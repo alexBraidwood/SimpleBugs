@@ -1,4 +1,6 @@
-﻿namespace SimpleBugs.Models
+﻿using System.Runtime.CompilerServices;
+
+namespace SimpleBugs.Models
 {
     using System;
     using System.Collections.Generic;
@@ -8,7 +10,12 @@
 
     public class BugTicket : Interfaces.ICreate, Interfaces.IResolve
     {
-        public string UserName { get; set { value = Environment.UserName; } }
+        public string UserName { get; private set; }
+
+        public BugTicket()
+        {
+            this.UserName = Environment.UserName.ToString();
+        }
 
         public int CreateIdNumber
         {
