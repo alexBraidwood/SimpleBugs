@@ -4,21 +4,28 @@
 	x:Class="SimpleBugTracker.BugSubmit"
 	x:Name="Window"
 	Title="BugSubmit"
-	Width="645.999" Height="406.667">
+	Width="392.667" Height="313.667">
 
-	<Grid x:Name="LayoutRoot" Margin="0,0,2,-1.333" Height="378" VerticalAlignment="Top">
-		<DatePicker HorizontalAlignment="Left" Margin="342.895,58.666,0,0" VerticalAlignment="Top"/>
-		<Label Content="Creation Date:" HorizontalAlignment="Left" Margin="252.365,56.666,0,0" VerticalAlignment="Top"/>
-		<ComboBox HorizontalAlignment="Left" Margin="342.896,87.666,0,0" VerticalAlignment="Top" Width="101.64"/>
-		<Label Content="Priority:" HorizontalAlignment="Left" Margin="287.511,82.626,0,0" VerticalAlignment="Top"/>
-		<TextBox HorizontalAlignment="Left" Height="23" Margin="70.61,85.587,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="88"/>
-		<TextBox HorizontalAlignment="Left" Height="23" Margin="70.61,57.627,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="88"/>
-		<Label Content="Bug ID:" HorizontalAlignment="Left" Margin="20.666,54.666,0,0" VerticalAlignment="Top"/>
-		<Label Content="User:" HorizontalAlignment="Left" Margin="29.222,83.666,0,0" VerticalAlignment="Top"/>
-		<Button Content="Submit" HorizontalAlignment="Left" Margin="140.001,241.372,0,0" VerticalAlignment="Top" Width="75"/>
-		<Button Content="Cancel" HorizontalAlignment="Left" Margin="262.894,241.372,0,0" VerticalAlignment="Top" Width="75"/>
-		<GroupBox Header="Bug Ticket" HorizontalAlignment="Left" Margin="20.666,38.666,0,0" VerticalAlignment="Top" Height="140.294" Width="226.699"/>
-		<Label Content="Language:" HorizontalAlignment="Left" Margin="273.144,108.586,0,0" VerticalAlignment="Top" Width="64.75"/>
-		<TextBox HorizontalAlignment="Left" Height="23" Margin="342.896,114.626,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="101.639"/>
-	</Grid>
+    <Grid x:Name="LayoutRoot" Margin="0,0,2,-0.333" Height="284" VerticalAlignment="Top">
+        <DatePicker HorizontalAlignment="Left" Margin="262.894,57.253,0,0" VerticalAlignment="Top"/>
+        <Label Content="Creation Date:" HorizontalAlignment="Left" Margin="177.363,55.293,0,0" VerticalAlignment="Top"/>
+        <ComboBox HorizontalAlignment="Left" Margin="262.895,112.213,0,0" VerticalAlignment="Top" Width="101.64"/>
+        <Label Content="Priority:" HorizontalAlignment="Left" Margin="212.511,108.213,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="64.61,88.253,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="88"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="64.61,60.293,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="88"/>
+        <Label Content="Bug ID:" HorizontalAlignment="Left" Margin="16.38,57.333,0,0" VerticalAlignment="Top"/>
+        <Label Content="User:" HorizontalAlignment="Left" Margin="28.223,84.253,0,0" VerticalAlignment="Top"/>
+        <Button Content="Submit" HorizontalAlignment="Left" Margin="101.722,253.373,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Cancel" HorizontalAlignment="Left" Margin="198.143,253.373,0,0" VerticalAlignment="Top" Width="75"/>
+        <Label Content="Language:" HorizontalAlignment="Left" Margin="198.143,83.293,0,0" VerticalAlignment="Top" Width="64.75"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="262.894,86.253,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="101.639"/>
+        <Button Content="..." HorizontalAlignment="Left" Margin="292.067,204.292,0,0" VerticalAlignment="Top" Width="22" Height="23"/>
+        <Label Content="Project Name:" HorizontalAlignment="Left" Margin="7.767,176.292,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="92.067,176.292,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="200"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="92.067,204.292,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="200"/>
+        <Label Content="Exception:" HorizontalAlignment="Left" Margin="28.223,204.292,0,0" VerticalAlignment="Top"/>
+        <GroupBox Header="General Info" HorizontalAlignment="Left" Margin="6.38,41.343,0,0" VerticalAlignment="Top" Height="103.627" Width="373.62"/>
+        <GroupBox Header="Project Info" HorizontalAlignment="Left" Margin="7.767,149.97,0,0" VerticalAlignment="Top" Height="89.627" Width="370"/>
+        <ToolBarPanel HorizontalAlignment="Left" Height="18" VerticalAlignment="Top" Width="383"/>
+    </Grid>
 </Window>
