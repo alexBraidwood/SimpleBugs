@@ -1,0 +1,12 @@
+﻿<Window x:Class="SimpleBugTracker.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+    	<DataGrid HorizontalAlignment="Left" Margin="47,54,0,0" VerticalAlignment="Top" Height="202.667" Width="430"/>
+    	<Menu HorizontalAlignment="Left" Height="18.5" VerticalAlignment="Top" Width="517">
+    		<MenuItem Header="MenuItem" Height="1.5" Width="1.5"/>
+    	</Menu>
+        
+    </Grid>
+</Window>
