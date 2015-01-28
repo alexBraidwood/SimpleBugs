@@ -2,6 +2,9 @@
 
 namespace SimpleBugs.Interfaces {
 
+    /// <summary>
+    /// Interface for all SimpleBugContexts
+    /// </summary>
     public interface ISimpleBugContext {
 
         IDbConnection Connection { set; }

@@ -2,6 +2,10 @@
 using SimpleBugs.Models;
 
 namespace SimpleBugs {
+
+    /// <summary>
+    /// Base Submission Behavior for Submission Form
+    /// </summary>
     public class BaseSubmitBehavior : ISubmitBehavior {
 
         public BaseSubmitBehavior(BugTicket ticket, IPriority priority, IStatus status) {
