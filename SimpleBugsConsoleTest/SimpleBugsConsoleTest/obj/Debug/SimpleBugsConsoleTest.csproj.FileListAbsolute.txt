@@ -6,3 +6,6 @@ F:\Programming Projects\SimpleBugs\SimpleBugsConsoleTest\SimpleBugsConsoleTest\b
 F:\Programming Projects\SimpleBugs\SimpleBugsConsoleTest\SimpleBugsConsoleTest\obj\Debug\SimpleBugsConsoleTest.csprojResolveAssemblyReference.cache
 F:\Programming Projects\SimpleBugs\SimpleBugsConsoleTest\SimpleBugsConsoleTest\obj\Debug\SimpleBugsConsoleTest.exe
 F:\Programming Projects\SimpleBugs\SimpleBugsConsoleTest\SimpleBugsConsoleTest\obj\Debug\SimpleBugsConsoleTest.pdb
+C:\Dev\SimpleBugs\SimpleBugsConsoleTest\SimpleBugsConsoleTest\bin\Debug\SimpleBugsConsoleTest.exe.config
+C:\Dev\SimpleBugs\SimpleBugsConsoleTest\SimpleBugsConsoleTest\obj\Debug\SimpleBugsConsoleTest.exe
+C:\Dev\SimpleBugs\SimpleBugsConsoleTest\SimpleBugsConsoleTest\obj\Debug\SimpleBugsConsoleTest.pdb
