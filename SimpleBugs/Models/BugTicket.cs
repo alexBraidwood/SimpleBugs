@@ -13,7 +13,7 @@
 
 
 
-    public class BugTicket : ICreate, IResolve
+    public class BugTicket : IBugObject<BugTicket>
     {
         /// <summary>
         /// 
@@ -43,8 +43,24 @@
 
         /// <summary>
         /// 
+        /// TODO (Nick): Create database selection type for method 
         /// </summary>
-        public int CreateIdNumber
+        private void InitialBugInformation(string dataSource)
+        {
+            string configConnection = ConfigurationManager.ConnectionStrings[dataSource].ConnectionString;
+            SqlConnection db = new SqlConnection(configConnection);
+
+            bugContext = new SimpleBugContext(db);
+            bugContext.Connection = db;
+
+            if (bugContext.BugExist(this) == false) 
+                bugContext.Insert(this);
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public int Id
         {
             get
             {
@@ -59,7 +75,7 @@
         /// <summary>
         /// 
         /// </summary>
-        public int ResolveIdNumber
+        public string TableName
         {
             get { throw new NotImplementedException(); }
         }
@@ -67,31 +83,9 @@
         /// <summary>
         /// 
         /// </summary>
-        /// <returns></returns>
-        public string CreationInfo()
+        public IDictionary<string, dynamic> Mappings
         {
-            throw new NotImplementedException();
-        }
-
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <returns></returns>
-        public string ResolveInfo()
-        {
-            throw new NotImplementedException();
-        }
-
-        /// <summary>
-        /// 
-        /// TODO (Nick): Create database selection type for method 
-        /// </summary>
-        private void InitialBugInformation(string dataSource)
-        {
-            string configConnection = ConfigurationManager.ConnectionStrings[dataSource].ConnectionString;
-            SqlConnection db = new SqlConnection(configConnection);
-
-            bugContext = new SimpleBugContext(db);
+            get { throw new NotImplementedException(); }
         }
     }
 }

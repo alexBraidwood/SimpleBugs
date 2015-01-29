@@ -67,5 +67,15 @@ namespace SimpleBugs.DAL {
         public void Delete<T>(IBugObject<T> item) where T : class {
 
         }
+
+        /// <summary>
+        /// Checks to see if items already exist in database
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="item"></param>
+        /// <returns></returns>
+        public bool BugExist<T>(IBugObject<T> item) where T : class {
+            return false;
+        }
     }
 }
