@@ -1,5 +1,4 @@
-﻿
-namespace SimpleBugs {
+﻿namespace SimpleBugs {
     using System.Collections.Concurrent;
     using SimpleBugs.Interfaces;
     using System.Collections.Generic;
@@ -9,9 +8,14 @@ namespace SimpleBugs {
     /// </summary>
     /// <typeparam name="T">Object Type</typeparam>
     public class BugObjectBase<T> : IBugObject<T> where T : class {
-
+        /// <summary>
+        /// 
+        /// </summary>
         private IDictionary<string, dynamic> mappings; 
 
+        /// <summary>
+        /// 
+        /// </summary>
         public int Id { get; set; }
 
         /// <summary>
@@ -27,6 +31,7 @@ namespace SimpleBugs {
                 if (mappings == null) {
                     mappings = new ConcurrentDictionary<string, dynamic>();
                 }
+                return mappings;;
             }
             protected set { mappings = value; }
         }
