@@ -11,8 +11,6 @@
     using SimpleBugs.Interfaces;
     using SimpleBugs.DAL;
 
-
-
     public class BugTicket : IBugObject<BugTicket>
     {
         /// <summary>
