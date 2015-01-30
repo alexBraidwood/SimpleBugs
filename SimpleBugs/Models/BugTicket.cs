@@ -11,7 +11,7 @@
     using SimpleBugs.Interfaces;
     using SimpleBugs.DAL;
 
-    public class BugTicket : IBugObject<BugTicket>
+    public class BugTicket : BugObjectBase<BugTicket>
     {
         /// <summary>
         /// 
@@ -51,7 +51,7 @@
             bugContext = new SimpleBugContext(db);
             bugContext.Connection = db;
 
-            if (bugContext.BugExist(this) == false) 
+            if (bugContext.BugExist(this) == false)
                 bugContext.Insert(this);
         }
 
@@ -60,28 +60,14 @@
         /// </summary>
         public int Id
         {
-            get
-            {
-                throw new NotImplementedException();
-            }
-            set
-            {
-                throw new NotImplementedException();
-            }
+            get { throw new NotImplementedException(); }
+            set { throw new NotImplementedException(); }
         }
 
         /// <summary>
         /// 
         /// </summary>
         public string TableName
-        {
-            get { throw new NotImplementedException(); }
-        }
-
-        /// <summary>
-        /// 
-        /// </summary>
-        public IDictionary<string, dynamic> Mappings
         {
             get { throw new NotImplementedException(); }
         }
