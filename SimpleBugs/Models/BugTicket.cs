@@ -52,7 +52,13 @@
             bugContext.Connection = db;
 
             if (bugContext.BugExist(this) == false)
+            {
                 bugContext.Insert(this);
+            }
+            else
+            {
+                bugContext.Update(this);
+            }
         }
 
         /// <summary>

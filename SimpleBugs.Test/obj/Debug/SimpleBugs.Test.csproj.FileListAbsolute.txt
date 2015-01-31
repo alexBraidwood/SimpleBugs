@@ -1,0 +1,7 @@
+F:\Programming Projects\SimpleBugs\SimpleBugs.Test\bin\Debug\SimpleBugs.Test.dll
+F:\Programming Projects\SimpleBugs\SimpleBugs.Test\bin\Debug\SimpleBugs.Test.pdb
+F:\Programming Projects\SimpleBugs\SimpleBugs.Test\bin\Debug\xunit.dll
+F:\Programming Projects\SimpleBugs\SimpleBugs.Test\bin\Debug\xunit.xml
+F:\Programming Projects\SimpleBugs\SimpleBugs.Test\obj\Debug\SimpleBugs.Test.csprojResolveAssemblyReference.cache
+F:\Programming Projects\SimpleBugs\SimpleBugs.Test\obj\Debug\SimpleBugs.Test.dll
+F:\Programming Projects\SimpleBugs\SimpleBugs.Test\obj\Debug\SimpleBugs.Test.pdb

@@ -1,0 +1,11 @@
+F:\Programming Projects\SimpleBugs\SimpleBugs\bin\Debug\SimpleBugs.mdf
+F:\Programming Projects\SimpleBugs\SimpleBugs\bin\Debug\SimpleBugs_log.ldf
+F:\Programming Projects\SimpleBugs\SimpleBugs\bin\Debug\SimpleBugs.dll.config
+F:\Programming Projects\SimpleBugs\SimpleBugs\bin\Debug\SimpleBugs.dll
+F:\Programming Projects\SimpleBugs\SimpleBugs\bin\Debug\SimpleBugs.pdb
+F:\Programming Projects\SimpleBugs\SimpleBugs\bin\Debug\Dapper.dll
+F:\Programming Projects\SimpleBugs\SimpleBugs\bin\Debug\Dapper.pdb
+F:\Programming Projects\SimpleBugs\SimpleBugs\bin\Debug\Dapper.xml
+F:\Programming Projects\SimpleBugs\SimpleBugs\obj\Debug\SimpleBugs.csprojResolveAssemblyReference.cache
+F:\Programming Projects\SimpleBugs\SimpleBugs\obj\Debug\SimpleBugs.dll
+F:\Programming Projects\SimpleBugs\SimpleBugs\obj\Debug\SimpleBugs.pdb

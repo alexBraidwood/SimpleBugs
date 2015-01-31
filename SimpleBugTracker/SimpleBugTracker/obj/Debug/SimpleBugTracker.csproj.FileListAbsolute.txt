@@ -1,0 +1,17 @@
+F:\Programming Projects\SimpleBugs\SimpleBugTracker\SimpleBugTracker\bin\Debug\SimpleBugTracker.exe.config
+F:\Programming Projects\SimpleBugs\SimpleBugTracker\SimpleBugTracker\bin\Debug\SimpleBugTracker.exe
+F:\Programming Projects\SimpleBugs\SimpleBugTracker\SimpleBugTracker\bin\Debug\SimpleBugTracker.pdb
+F:\Programming Projects\SimpleBugs\SimpleBugTracker\SimpleBugTracker\obj\Debug\SimpleBugTracker.csprojResolveAssemblyReference.cache
+F:\Programming Projects\SimpleBugs\SimpleBugTracker\SimpleBugTracker\obj\Debug\BugSubmit.baml
+F:\Programming Projects\SimpleBugs\SimpleBugTracker\SimpleBugTracker\obj\Debug\MainWindow.baml
+F:\Programming Projects\SimpleBugs\SimpleBugTracker\SimpleBugTracker\obj\Debug\Simple Styles.baml
+F:\Programming Projects\SimpleBugs\SimpleBugTracker\SimpleBugTracker\obj\Debug\App.baml
+F:\Programming Projects\SimpleBugs\SimpleBugTracker\SimpleBugTracker\obj\Debug\BugSubmit.g.cs
+F:\Programming Projects\SimpleBugs\SimpleBugTracker\SimpleBugTracker\obj\Debug\MainWindow.g.cs
+F:\Programming Projects\SimpleBugs\SimpleBugTracker\SimpleBugTracker\obj\Debug\App.g.cs
+F:\Programming Projects\SimpleBugs\SimpleBugTracker\SimpleBugTracker\obj\Debug\SimpleBugTracker_MarkupCompile.cache
+F:\Programming Projects\SimpleBugs\SimpleBugTracker\SimpleBugTracker\obj\Debug\SimpleBugTracker.g.resources
+F:\Programming Projects\SimpleBugs\SimpleBugTracker\SimpleBugTracker\obj\Debug\SimpleBugTracker.Properties.Resources.resources
+F:\Programming Projects\SimpleBugs\SimpleBugTracker\SimpleBugTracker\obj\Debug\SimpleBugTracker.csproj.GenerateResource.Cache
+F:\Programming Projects\SimpleBugs\SimpleBugTracker\SimpleBugTracker\obj\Debug\SimpleBugTracker.exe
+F:\Programming Projects\SimpleBugs\SimpleBugTracker\SimpleBugTracker\obj\Debug\SimpleBugTracker.pdb
