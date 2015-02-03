@@ -21,6 +21,13 @@
         /// <summary>
         /// 
         /// </summary>
+        private int userId;
+
+        private int ticketId;
+
+        /// <summary>
+        /// 
+        /// </summary>
         public string UserName { get; private set; }
 
         /// <summary>

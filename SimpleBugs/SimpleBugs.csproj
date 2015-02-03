@@ -58,17 +58,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BaseSubmitBehavior.cs" />
-    <Compile Include="BugAttributes.cs" />
-    <Compile Include="BugObjectBase.cs" />
+    <Compile Include="Models\BaseSubmitBehavior.cs" />
+    <Compile Include="Models\BugAttributes.cs" />
+    <Compile Include="Models\BugObjectBase.cs" />
     <Compile Include="DAL\SimpleBugContext.cs" />
     <Compile Include="Interfaces\IBugObject.cs" />
     <Compile Include="Interfaces\ISimpleBugContext.cs" />
     <Compile Include="Interfaces\ISubmitBehavior.cs" />
     <Compile Include="Models\BugTicket.cs" />
-    <Compile Include="Interfaces\ICreate.cs" />
     <Compile Include="Interfaces\IPriority.cs" />
-    <Compile Include="Interfaces\IResolve.cs" />
     <Compile Include="Interfaces\IStatus.cs" />
     <Compile Include="Models\ProjectInfo.cs" />
     <Compile Include="Models\Status.cs" />
