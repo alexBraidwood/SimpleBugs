@@ -5,17 +5,18 @@
     using System.Linq;
     using System.Text;
     using System.Threading.Tasks;
-    using Xunit;
+    using NUnit.Framework;
 
-    public class Class1
+    [TestFixture]
+    public class SimpleBugsTest
     {
-        // This was created just as a test for using Xunit
-        [Fact]
+        [Test]
         public void PassingTest()
         {
-            Assert.Equal(4, Add(2, 2));
+
         }
 
+        [Test]
         int Add(int x, int y)
         {
             return x + y;
