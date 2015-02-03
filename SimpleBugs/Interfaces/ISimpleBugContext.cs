@@ -1,10 +1,12 @@
-﻿namespace SimpleBugs.Interfaces {
+﻿namespace SimpleBugs.Interfaces
+{
     using System.Data;
 
     /// <summary>
     /// Interface for all SimpleBugContexts
     /// </summary>
-    public interface ISimpleBugContext {
+    public interface ISimpleBugContext 
+    {
         /// <summary>
         /// 
         /// </summary>

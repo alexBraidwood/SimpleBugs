@@ -1,22 +1,23 @@
-﻿using System.Text;
-
-namespace SimpleBugs.DAL {
-
+﻿namespace SimpleBugs.DAL 
+{
     using System;
     using System.Data;
+    using System.Text;
     using SimpleBugs.Interfaces;
     using Dapper;
+
 
     /// <summary>
     /// Base Context for Simple Bug Data Interaction, Inherit for more specific implementations
     /// </summary>
-    public class SimpleBugContext : ISimpleBugContext {
-
+    public class SimpleBugContext : ISimpleBugContext 
+    {
         /// <summary>
         /// Base Constructor
         /// </summary>
         /// <param name="connection">Db Connection for all interaction with class</param>
-        public SimpleBugContext(IDbConnection connection) {
+        public SimpleBugContext(IDbConnection connection) 
+        {
             if (connection == null)
                 throw new Exception("Database connection required to use this constructor");
         }
@@ -32,15 +33,18 @@ namespace SimpleBugs.DAL {
         /// </summary>
         /// <typeparam name="T">Type of Object to Insert</typeparam>
         /// <param name="item">Item to Insert</param>
-        public void Insert<T>(IBugObject<T> item) where T : class {
+        public void Insert<T>(IBugObject<T> item) where T : class 
+        {
             StringBuilder sb = new StringBuilder();
             int i = 0;
 
             // Build VALUES part of Sql statement
-            foreach (var obj in item.Mappings.Keys) {
+            foreach (var obj in item.Mappings.Keys) 
+            {
                 ++i;
                 sb.Append(item.Mappings[obj]);
-                if (i < item.Mappings.Count) {
+                if (i < item.Mappings.Count) 
+                {
                     sb.Append(", ");
                 }
             }
@@ -54,8 +58,8 @@ namespace SimpleBugs.DAL {
         /// </summary>
         /// <typeparam name="T">Type of Object to Update</typeparam>
         /// <param name="item">Object to Update</param>
-        public void Update<T>(IBugObject<T> item) where T : class {
-
+        public void Update<T>(IBugObject<T> item) where T : class 
+        {
 
         }
 
@@ -64,7 +68,8 @@ namespace SimpleBugs.DAL {
         /// </summary>
         /// <typeparam name="T">Type of Object to Delete</typeparam>
         /// <param name="item">Object to delete</param>
-        public void Delete<T>(IBugObject<T> item) where T : class {
+        public void Delete<T>(IBugObject<T> item) where T : class 
+        {
 
         }
 
@@ -74,7 +79,8 @@ namespace SimpleBugs.DAL {
         /// <typeparam name="T"></typeparam>
         /// <param name="item"></param>
         /// <returns></returns>
-        public bool BugExist<T>(IBugObject<T> item) where T : class {
+        public bool BugExist<T>(IBugObject<T> item) where T : class 
+        {
             return false;
         }
     }

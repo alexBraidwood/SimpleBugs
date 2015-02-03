@@ -1,9 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 
-namespace SimpleBugs.Interfaces {
+namespace SimpleBugs.Interfaces
+{
 
-    public interface IBugObject<T> where T : class {
+    public interface IBugObject<T> where T : class 
+    {
         /// <summary>
         /// 
         /// </summary>

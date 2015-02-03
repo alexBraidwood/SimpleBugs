@@ -1,7 +1,7 @@
-﻿using SimpleBugs.Interfaces;
-using SimpleBugs.Models;
-
-namespace SimpleBugs {
+﻿namespace SimpleBugs 
+{
+    using SimpleBugs.Interfaces;
+    using SimpleBugs.Models;
 
     /// <summary>
     /// Base Submission Behavior for Submission Form

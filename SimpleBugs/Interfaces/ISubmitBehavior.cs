@@ -1,7 +1,9 @@
-﻿using SimpleBugs.Models;
+﻿namespace SimpleBugs.Interfaces
+{
+    using  SimpleBugs.Models;
 
-namespace SimpleBugs.Interfaces {
-    public interface ISubmitBehavior {
+    public interface ISubmitBehavior
+    {
         void Submit();
         IStatus Status { get; set; }
         IPriority Priority { get; set; }

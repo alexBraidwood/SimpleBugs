@@ -14,7 +14,7 @@
     public class BugTicket : BugObjectBase<BugTicket>
     {
         /// <summary>
-        /// 
+        /// Bug Context for create for interaction with database
         /// </summary>
         private SimpleBugContext bugContext;
 
@@ -22,8 +22,6 @@
         /// 
         /// </summary>
         private int userId;
-
-        private int ticketId;
 
         /// <summary>
         /// 
