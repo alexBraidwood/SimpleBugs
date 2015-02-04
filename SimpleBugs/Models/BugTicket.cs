@@ -1,4 +1,6 @@
-﻿namespace SimpleBugs.Models
+﻿using System.Data;
+
+namespace SimpleBugs.Models
 {
     using System;
     using System.Collections.Generic;
@@ -13,11 +15,7 @@
 
     public class BugTicket : BugObjectBase<BugTicket>
     {
-        /// <summary>
-        /// Bug Context for create for interaction with database
-        /// </summary>
         private SimpleBugContext bugContext;
-
         /// <summary>
         /// 
         /// </summary>
@@ -36,12 +34,18 @@
         /// <summary>
         /// 
         /// </summary>
-        public BugTicket()
-        {
+        public BugTicket() { };
 
+        /// <summary>
+        /// 
+        /// </summary>
+        public BugTicket(SimpleBugContext BugContext)
+        {
             this.UserName = Environment.UserName.ToString();
             this.DateInformation = DateTime.Now;
-            InitialBugInformation("SimpleBugs");
+
+            if (BugContext.Connection == null)
+                InitialBugInformation("SimpleBugs");
         }
 
         /// <summary>
@@ -53,17 +57,8 @@
             string configConnection = ConfigurationManager.ConnectionStrings[dataSource].ConnectionString;
             SqlConnection db = new SqlConnection(configConnection);
 
-            bugContext = new SimpleBugContext(db);
-            bugContext.Connection = db;
-
-            if (bugContext.BugExist(this) == false)
-            {
-                bugContext.Insert(this);
-            }
-            else
-            {
-                bugContext.Update(this);
-            }
+            this.bugContext = new SimpleBugContext(db);
+            this.bugContext.Connection = db;
         }
 
         /// <summary>

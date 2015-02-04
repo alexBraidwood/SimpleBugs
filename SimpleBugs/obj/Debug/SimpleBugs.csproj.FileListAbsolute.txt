@@ -9,3 +9,14 @@ F:\Programming Projects\SimpleBugs\SimpleBugs\bin\Debug\Dapper.xml
 F:\Programming Projects\SimpleBugs\SimpleBugs\obj\Debug\SimpleBugs.csprojResolveAssemblyReference.cache
 F:\Programming Projects\SimpleBugs\SimpleBugs\obj\Debug\SimpleBugs.dll
 F:\Programming Projects\SimpleBugs\SimpleBugs\obj\Debug\SimpleBugs.pdb
+C:\Users\Nicholas\Desktop\Development\Projects\SimpleBugs\SimpleBugs\bin\Debug\SimpleBugs.mdf
+C:\Users\Nicholas\Desktop\Development\Projects\SimpleBugs\SimpleBugs\bin\Debug\SimpleBugs_log.ldf
+C:\Users\Nicholas\Desktop\Development\Projects\SimpleBugs\SimpleBugs\bin\Debug\SimpleBugs.dll.config
+C:\Users\Nicholas\Desktop\Development\Projects\SimpleBugs\SimpleBugs\bin\Debug\SimpleBugs.dll
+C:\Users\Nicholas\Desktop\Development\Projects\SimpleBugs\SimpleBugs\bin\Debug\SimpleBugs.pdb
+C:\Users\Nicholas\Desktop\Development\Projects\SimpleBugs\SimpleBugs\bin\Debug\Dapper.dll
+C:\Users\Nicholas\Desktop\Development\Projects\SimpleBugs\SimpleBugs\bin\Debug\Dapper.pdb
+C:\Users\Nicholas\Desktop\Development\Projects\SimpleBugs\SimpleBugs\bin\Debug\Dapper.xml
+C:\Users\Nicholas\Desktop\Development\Projects\SimpleBugs\SimpleBugs\obj\Debug\SimpleBugs.csprojResolveAssemblyReference.cache
+C:\Users\Nicholas\Desktop\Development\Projects\SimpleBugs\SimpleBugs\obj\Debug\SimpleBugs.dll
+C:\Users\Nicholas\Desktop\Development\Projects\SimpleBugs\SimpleBugs\obj\Debug\SimpleBugs.pdb
