@@ -1,15 +1,11 @@
-﻿using System.Security.Cryptography.X509Certificates;
-using SimpleBugs.Models;
-
-namespace SimpleBugs.Test
+﻿namespace SimpleBugs.Test
 {
+    using SimpleBugs.DAL;
+    using SimpleBugs.Models;
     using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Text;
-    using System.Threading.Tasks;
     using NUnit.Framework;
-    using SimpleBugs;
+    using System.Configuration;
+    using System.Data.SqlClient;
 
     [TestFixture]
     public class SimpleBugsTest
@@ -17,22 +13,28 @@ namespace SimpleBugs.Test
         [Test]
         public void TicketUserName()
         {
-            BugTicket ticket = new BugTicket();
+            //var configConnection = ConfigurationManager
+            //    .ConnectionStrings["SimpleBugs"]
+            //    .ConnectionString;
+            SqlConnection db = new SqlConnection("Data Source=..\\SQLEXPRESS;Initial Catalog=SimpleBugs;Integrated Security=True");
 
-            StringAssert.IsMatch("Nicholas", ticket.UserName.ToString());
+            SimpleBugContext bugContext = new SimpleBugContext(db);
+
+            BugTicket ticket = new BugTicket(bugContext);
+
+            StringAssert.IsMatch(System.Environment.UserName.ToString(), ticket.UserName.ToString());
         }
 
         [Test]
         public void TicketDateTime()
         {
-            BugTicket ticket = new BugTicket();
-            StringAssert.IsMatch(DateTime.Now.ToString(), ticket.DateInformation.ToString());
-        }
-
-        public void TicketDbConnection()
-        {
-            BugTicket ticket = new BugTicket();
+            SqlConnection db = new SqlConnection("Data Source=..\\SQLEXPRESS;Initial Catalog=SimpleBugs;Integrated Security=True");
             
+            SimpleBugContext bugContext = new SimpleBugContext(db);
+
+            BugTicket ticket = new BugTicket(bugContext);
+
+            StringAssert.IsMatch(DateTime.Now.ToString(), ticket.DateInformation.ToString());
         }
     }
 }

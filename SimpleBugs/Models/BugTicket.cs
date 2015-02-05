@@ -15,7 +15,6 @@ namespace SimpleBugs.Models
 
     public class BugTicket : BugObjectBase<BugTicket>
     {
-        private SimpleBugContext bugContext;
         /// <summary>
         /// 
         /// </summary>
@@ -34,31 +33,10 @@ namespace SimpleBugs.Models
         /// <summary>
         /// 
         /// </summary>
-        public BugTicket() { };
-
-        /// <summary>
-        /// 
-        /// </summary>
-        public BugTicket(SimpleBugContext BugContext)
+        public BugTicket(SimpleBugContext contextBug)
         {
             this.UserName = Environment.UserName.ToString();
             this.DateInformation = DateTime.Now;
-
-            if (BugContext.Connection == null)
-                InitialBugInformation("SimpleBugs");
-        }
-
-        /// <summary>
-        /// 
-        /// TODO (Nick): Create database selection type for method 
-        /// </summary>
-        private void InitialBugInformation(string dataSource)
-        {
-            string configConnection = ConfigurationManager.ConnectionStrings[dataSource].ConnectionString;
-            SqlConnection db = new SqlConnection(configConnection);
-
-            this.bugContext = new SimpleBugContext(db);
-            this.bugContext.Connection = db;
         }
 
         /// <summary>
